@@ -8,18 +8,13 @@ class Cat:
         self.gender = gender
         self.age = age
 
-    def is_available(self):
-        return True if self.quantity_in_stock > 0 else False
+    def getName(self):
+        return self.name
 
-cat = [
-    {
-     "name": "Барон",
-     "gender": "мальчик",
-     "age": 2,
-    },
-    {
-     "name": "Сэм",
-     "gender": "мальчик",
-     "age": 2,
-    }]
+    def getGender(self):
+        return self.gender
+
+    def getAge(self):
+        return self.age
+
 
